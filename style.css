@@ -53,7 +53,7 @@ header {
 }
 
 .container-header p {
-    margin: -12px 0 20px 0;
+    margin: -8px 0 20px 0;
     color: #fff;
 }
 
@@ -63,7 +63,7 @@ header {
     justify-content: space-between;
 }
 
-.container-button a {
+#a-orcamento {
     font-weight: 500;
     color: #fff;
     border-radius: 10px;
@@ -72,16 +72,31 @@ header {
     transition: .4s ease;
 }
 
-.container-button a:hover {
+#a-orcamento:hover {
     transform: scale(1.02);
     background-color: #fff;
     color: #00193a;
 }
 
+#a-projetos {
+    font-weight: 500;
+    color: #00193a;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px 15px;
+    transition: .4s ease;
+}
+
+#a-projetos:hover {
+    transform: scale(1.02);
+    background-color: #00193a;
+    color: #fff;
+}
+
 .info-me {
     padding: 25px;
     max-width: 900px;
-    margin: 80px auto;
+    margin: 80px auto 5px auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
